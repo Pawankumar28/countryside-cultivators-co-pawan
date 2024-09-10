@@ -7,7 +7,7 @@ if(isset($_GET['logout']) && $_GET['logout'] == 1){
         unset($_SESSION['admin_logged_in']);
         unset($_SESSION['admin_email']);
         unset($_SESSION['admin_name']);
-        header('loaction: login.php');
+        header('loaction: ../admin/login.php');
         exit;
     }
 }
