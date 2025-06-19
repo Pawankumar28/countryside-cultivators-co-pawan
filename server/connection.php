@@ -1,4 +1,12 @@
 <?php
-$conn = mysqli_connect("localhost","root","","php_project") 
-or die("couldn't connect to database");
+$host = 'loaclhost';
+$user = 'root';
+$password = ''; // Your MySQL password
+$database = 'php_project';
+
+$conn = new mysqli($host, $user, $password, $database);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 ?>
