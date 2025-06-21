@@ -29,7 +29,7 @@ if(isset($_POST['login_btn'])){
 
         header('location: account.php?message=logged in successfully');
         }else{
-            header('location: login.php?error=could bot verify your account');  
+            header('location: login.php?error=could not verify your account');  
         }
     }else{
         //error

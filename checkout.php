@@ -28,6 +28,7 @@ session_start();
                     <label>Name</label>
                         <input type="text" class="form-control" id="checkout-name" name="name" placeholder="Enter Name" required/>
                 </div>
+                <br>
                 <div class="form-group checkout-small-element">
                     <label>Email</label>
                         <input type="text" class="form-control" id="checkout-email" name="email" placeholder="Enter Email Address" required/>
